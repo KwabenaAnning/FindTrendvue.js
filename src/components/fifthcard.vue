@@ -10,7 +10,7 @@ import ButtonComponent from './ButtonComponent.vue';
         </div>
         <div class="platFormfifth">
             <img src="@/components/images/Rectangle_6(1).svg" alt="">
-            <img src="@/components/images/twitter.png" alt="">
+            <img src="@/components/images/twitter.png" alt="" class="twitter">
             <img src="@/components/images/image_96(2).svg" alt="">
             <img src="@/components/images/image_95(1).svg" alt="">
             <img src="@/components/images/image 113.png" alt="">
@@ -26,7 +26,6 @@ import ButtonComponent from './ButtonComponent.vue';
 
 
 <style scoped>
-
 .fifth{
     padding: 140px 172px;
    }
@@ -52,6 +51,11 @@ import ButtonComponent from './ButtonComponent.vue';
     display: none;
 }
 
+.twitter{
+    border-radius: 8px;
+    background: #A8FF35;
+}
+
 .button{
     color: #FFF;
     display: flex;
@@ -65,7 +69,6 @@ import ButtonComponent from './ButtonComponent.vue';
     border-radius: 40px;
     background: #000;
     margin-top: 80px;
-
 }
 
 

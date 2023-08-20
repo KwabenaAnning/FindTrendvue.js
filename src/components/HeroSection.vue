@@ -132,6 +132,17 @@ import xSign from '@/components/images/Group_1.svg';
  }
  }
 
+ @media (max-width:789px) {
+    .superBlack{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding-bottom: 49.84px;
+    }
+ }
+
+
 
  @media (max-width:610px) {
     .superBlack{

@@ -94,8 +94,6 @@ img{
     width: 104px;
     height: 52px;
 }
-
-
 .yearly{
     color: #F5F5F5;
     font-family: Inter;
@@ -118,6 +116,14 @@ img{
   justify-content: center;
 }
 
+@media (max-width:789px) {
+  .mydealsComp{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+}
 
 
 @media (max-width:610px) {

@@ -104,8 +104,6 @@ import airtable2 from '@/components/images/image 117.png'
   text-align: center;
   align-content: center;
   padding: 24px 34px;
-  max-width: 162px;
-  max-height: 74px;
 }
 
 /* .brands{
@@ -113,6 +111,15 @@ import airtable2 from '@/components/images/image 117.png'
  flex-direction: column;
  justify-content: center;
 } */
+
+@media (max-width:1127px ){
+  .sponsoRS{
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr;
+   align-content: center;
+   justify-content: center;
+}
+}
 
 @media (max-width:610px ){
   .sponsoRS{

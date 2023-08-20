@@ -39,6 +39,13 @@
     gap: 40px;
 }
 
+@media (max-width:776px) {
+      .footer{
+    display: flex;
+    gap: 100px;
+    }
+}
+
 @media (max-width:610px) {
     .footer{
         display: flex;
