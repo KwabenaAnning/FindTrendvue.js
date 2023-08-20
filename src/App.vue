@@ -7,8 +7,6 @@ import fifthcard from './components/fifthcard.vue';
 import MydealsCompo from './components/mydealsCompo.vue';
 import eightCard from './components/eightCard.vue';
 import footerCompo from './components/footerCompo.vue';
-
-
 </script>
 
 <template>
@@ -31,14 +29,14 @@ import footerCompo from './components/footerCompo.vue';
         </div>
         <div class="mydealsComp">
           <MydealsCompo  personal="Personal" special="Special first packet for all" Num="$8" m="/month" li1="Up to 5 page each group" 
-            li2="Up to 10 group page" li3="5 Days group page saved"/>
+            li2="Up to 10 group page" li3="5 Days group page saved" />
 
-            <MydealsCompo
-            personal="Regular" special="Recommended for personal pro" Num="$20" m="month" li1="Up to 15 page each group" 
+            <MydealsCompo class="regular"
+            personal="Regular" special="Recommended for personal pro" Num="$20" m="/month" li1="Up to 15 page each group" 
             li2="Download page up to 20 page" li3="Up to 10 group page" li4="15 Days group page saved"/>
 
             <MydealsCompo 
-            personal="Premium" special="Packet for Startup & Company" Num="$48" m="month" li1="Unlimited group pages" 
+            personal="Premium" special="Packet for Startup & Company" Num="$48" m="/month" li1="Unlimited group pages" 
             li2="Unlimited download page" li3="Unlimited page each group" li4="Customize sorting group pages"
             li5="Customize group page name" li6="30 Days group page saved"/>
         </div>
@@ -114,6 +112,11 @@ img{
   display: flex;
   gap: 40px;
   justify-content: center;
+}
+
+.regular{
+  border-radius: 16px;
+  background: #A8FF35;
 }
 
 @media (max-width:789px) {

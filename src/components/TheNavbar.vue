@@ -50,16 +50,17 @@
     gap: 10px;
 }
 
-.list ul a{
+.list ul {
     display: flex;
     list-style-type: none;
+    text-decoration: none;
     justify-content: space-between;
     justify-content: space-evenly;
     gap: 40px;
     text-align: center;
 }
    
-.list ul li a{
+.list ul a{
     display: flex;
     justify-content: center;
     text-decoration: none;
